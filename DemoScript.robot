@@ -1,5 +1,6 @@
 *** Settings ***
-Library    SeleniumLibrary
+Resource    ./Resources/Setup.robot
+
 
 *** Test Cases ***
 Open Google
